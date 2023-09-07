@@ -1,0 +1,278 @@
+{
+    "dhl": {
+        "Arrived in your region": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0482"
+        },
+        "Delivered": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "delivered",
+            "subPhase": "receiver",
+            "traceyEvent": "dhl1_0213"
+        },
+        "Delivered at DHL ServicePoint, ready for collection by the recipient": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "pup",
+            "subPhase": "shop",
+            "traceyEvent": "dhl1_0228"
+        },
+        "Delivery interrupted, delivery date changed": {
+            "carrierException": "deliveryDelay",
+            "exceptionType": "warning",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0309"
+        },
+        "Delivery interrupted, the parcel is delayed for one or two days": {
+            "carrierException": "deliveryDelay",
+            "exceptionType": "warning",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0210"
+        },
+        "Delivery planned at the CityHub": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0483"
+        },
+        "Delivery planned in the route of the courier": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0203"
+        },
+        "Entered into handheld device of the courier": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "inDelivery",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0205"
+        },
+        "Handed over to the courier": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "inDelivery",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0206"
+        },
+        "Out for delivery with the courier": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "inDelivery",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0207"
+        },
+        "Processed at": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0353"
+        },
+        "Shipment not yet received or processed": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "labelled",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0481"
+        },
+        "Signature received upon receipt": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0221"
+        },
+        "Sorted incorrectly, delayed because of resorting": {
+            "carrierException": "sortingDelay",
+            "exceptionType": "warning",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "missort",
+            "traceyEvent": "dhl1_0215"
+        },
+        "Your package is ready to be picked up.": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "pup",
+            "subPhase": "shop",
+            "traceyEvent": "dhl1_0310"
+        },
+        "Processed for clearance at": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0369"
+        },
+        "The importation of the shipment has been terminated. The shipment will be returned to sender": {
+            "carrierException": "returnedSender",
+            "exceptionType": "warning",
+            "isReturned": true,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0673"
+        },
+        "Arrived at DHL Sort Facility": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0347"
+        },
+        "Shipment arrived at Parcel Investigation.": {
+            "carrierException": "customerSupport",
+            "exceptionType": "warning",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0759"
+        },
+        "CLOSED_ON_ARRIVAL": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "attempted",
+            "subPhase": "companyClosed",
+            "traceyEvent": "dhl1_0045"
+        },
+        "CUSTOMER BROKER NOTIFIED": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "customs",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0823"
+        },
+        "The shipment has been released after its additional inspection in the country of origin. Please find more information <a href=\"https://www.dhl.de/en/privatkunden/hilfe-kundenservice/international/was-bedeutet-mein-sendungsstatus.html#shipment-released\">here</a>.": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0643"
+        },
+        "CLOSED SHIPMENT": {
+            "carrierException": "customerSupport",
+            "exceptionType": "warning",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "undeliverable",
+            "traceyEvent": "dhl1_0949"
+        },
+        "In storage": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "dhl1_0301"
+        }
+    },
+    "bpost": {
+        "RoutedToPickupPoint - safeplace_is_not_accessible": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "attempted",
+            "subPhase": "none",
+            "traceyEvent": "bpo1_0069"
+        },
+        "AddressNotFound - destination_unknown": {
+            "carrierException": "addressError",
+            "exceptionType": "error",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "incorrectInformation",
+            "traceyEvent": "bpo1_0022"
+        },
+        "InExceptionHandling - address_not_accessible": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "attempted",
+            "subPhase": "inaccesible",
+            "traceyEvent": "bpo1_0189"
+        },
+        "RoutedToPickupPoint - transferred_to_pugo_request_bpost": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "pup",
+            "subPhase": "none",
+            "traceyEvent": "bpo1_0181"
+        },
+        "AwaitingRepresentationNextDay - pick_up_point_inaccessible": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "attempted",
+            "subPhase": "pupClosed",
+            "traceyEvent": "bpo1_0102"
+        },
+        "ItemReturned - addressee_absent": {
+            "carrierException": "addressError",
+            "exceptionType": "error",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "unknownReceiver",
+            "traceyEvent": "bpo1_0028"
+        },
+        "Sorted - sorted_out": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "bpo1_0126"
+        },
+        "InTransfer - address_incorrect": {
+            "carrierException": "addressError",
+            "exceptionType": "error",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "incorrectInformation",
+            "traceyEvent": "bpo1_0055"
+        },
+        "InTransfer - successful": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "sorted",
+            "subPhase": "none",
+            "traceyEvent": "bpo1_0112"
+        },
+        "Communication 'Info Start Round' sent via e-mail": {
+            "carrierException": null,
+            "exceptionType": "success",
+            "isReturned": false,
+            "phase": "none",
+            "subPhase": "none",
+            "traceyEvent": "bpo1_0154"
+        }
+    }
+}
