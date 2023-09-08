@@ -1,0 +1,146 @@
+{
+    "shipments": [
+        {
+            "id": "JVGL06252498000966068673",
+            "service": "parcel-nl",
+            "status": {
+                "timestamp": "2023-09-02T14:08:07.191362667+02:00",
+                "statusCode": "delivered",
+                "status": "Collected at DHL ServicePoint by the recipient"
+            },
+            "details": {
+                "proofOfDeliverySignedAvailable": false
+            },
+            "events": [
+                {
+                    "timestamp": "2023-09-02T14:08:07.191362667+02:00",
+                    "statusCode": "delivered",
+                    "status": "Collected at DHL ServicePoint by the recipient"
+                },
+                {
+                    "timestamp": "2023-09-02T14:08:07+02:00",
+                    "statusCode": "delivered",
+                    "status": "Collected at DHL ServicePoint by the recipient"
+                },
+                {
+                    "timestamp": "2023-08-31T16:24:47.035393714+02:00",
+                    "statusCode": "transit",
+                    "status": "Your package is ready to be picked up."
+                },
+                {
+                    "timestamp": "2023-08-31T16:24:47+02:00",
+                    "statusCode": "transit",
+                    "status": "Your package is ready to be picked up."
+                },
+                {
+                    "timestamp": "2023-08-31T11:24:08+02:00",
+                    "statusCode": "transit",
+                    "status": "Your package is ready to be picked up."
+                },
+                {
+                    "timestamp": "2023-08-31T11:09:31+02:00",
+                    "statusCode": "transit",
+                    "status": "Signature received upon receipt"
+                },
+                {
+                    "timestamp": "2023-08-31T11:09:31+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivered at DHL ServicePoint, ready for collection by the recipient"
+                },
+                {
+                    "timestamp": "2023-08-31T10:35:13+02:00",
+                    "statusCode": "transit",
+                    "status": "Out for delivery with the courier"
+                },
+                {
+                    "timestamp": "2023-08-31T10:31:01+02:00",
+                    "statusCode": "transit",
+                    "status": "Handed over to the courier"
+                },
+                {
+                    "timestamp": "2023-08-31T10:22:52+02:00",
+                    "statusCode": "transit",
+                    "status": "Entered into handheld device of the courier"
+                },
+                {
+                    "timestamp": "2023-08-31T07:25:07+02:00",
+                    "statusCode": "transit",
+                    "status": "Arrived in your region"
+                },
+                {
+                    "timestamp": "2023-08-31T03:39:51+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivery planned in the route of the courier"
+                },
+                {
+                    "timestamp": "2023-08-30T23:59:59+02:00",
+                    "statusCode": "failure",
+                    "status": "Delivery interrupted, delivery date changed"
+                },
+                {
+                    "timestamp": "2023-08-30T19:03:41+02:00",
+                    "statusCode": "failure",
+                    "status": "Delivery interrupted, delivery date changed"
+                },
+                {
+                    "timestamp": "2023-08-30T16:55:06+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivery planned in the route of the courier"
+                },
+                {
+                    "timestamp": "2023-08-30T15:28:26+02:00",
+                    "statusCode": "transit",
+                    "status": "Arrived in your region"
+                },
+                {
+                    "timestamp": "2023-08-30T15:28:26+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivery planned at the CityHub"
+                },
+                {
+                    "timestamp": "2023-08-30T10:32:49+02:00",
+                    "statusCode": "failure",
+                    "status": "Delivery interrupted, the parcel is delayed for one or two days"
+                },
+                {
+                    "timestamp": "2023-08-30T06:13:23+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivery planned in the route of the courier"
+                },
+                {
+                    "timestamp": "2023-08-30T01:11:25+02:00",
+                    "statusCode": "transit",
+                    "status": "Delivery planned at the CityHub"
+                },
+                {
+                    "timestamp": "2023-08-30T01:06:00+02:00",
+                    "statusCode": "transit",
+                    "status": "Processed at the sorting center"
+                },
+                {
+                    "timestamp": "2023-08-29T14:43:46+02:00",
+                    "statusCode": "pre-transit",
+                    "status": "Shipment not yet received or processed"
+                },
+                {
+                    "timestamp": "2023-08-29T14:42:49.117+02:00",
+                    "statusCode": "pre-transit",
+                    "status": "Shipment not yet received or processed"
+                }
+            ]
+        }
+    ],
+    "possibleAdditionalShipmentsUrl": [
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=freight",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=ecommerce",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=parcel-pl",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=dsc",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=post-de",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=sameday",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=parcel-uk",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=ecommerce-apac",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=ecommerce-europe",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=svb",
+        "/track/shipments?trackingNumber=JVGL06252498000966068673&service=post-international"
+    ]
+}

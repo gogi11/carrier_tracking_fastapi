@@ -4,5 +4,5 @@ from pydantic import BaseModel
 
 class TrackingDTO(BaseModel):
     barcode: str
-    carrier: Literal["dhl", "other"]
+    carrier: Literal["dhl"]
     credentials: str

@@ -2,18 +2,14 @@ import uvicorn
 from fastapi import FastAPI
 from DTO.TrackingDTO import TrackingDTO
 from carriers.DHLCarrier import DHLCarrier
-from dotenv import load_dotenv
-
-load_dotenv()
 app = FastAPI()
 
 carriers = {
-    "dhl": DHLCarrier(),
-    "other": None
+    "dhl": DHLCarrier()
 }
 
 
-@app.post("/track")
+@app.post("/tracking")
 async def index(data: TrackingDTO):
     return carriers[data.carrier].get_tracking_info(data.barcode)
 
