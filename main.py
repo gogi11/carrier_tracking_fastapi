@@ -2,10 +2,13 @@ import uvicorn
 from fastapi import FastAPI
 from DTO.TrackingDTO import TrackingDTO
 from carriers.DHLCarrier import DHLCarrier
+from dotenv import load_dotenv
+
+load_dotenv()
 app = FastAPI()
 
 carriers = {
-    "dhl": DHLCarrier()
+    "dhl": DHLCarrier(),
 }
 
 

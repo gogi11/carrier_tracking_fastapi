@@ -3,9 +3,6 @@ import json
 from fastapi import HTTPException
 from requests import Response
 from DTO.TraceyEventDTO import TraceyEventDTO
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 def get_tracey_mapping() -> dict[str, dict[str, TraceyEventDTO]]:
@@ -39,7 +36,7 @@ class AbstractCarrier(ABC):
                                     "external_api_status": status})
         return mappings[status]
 
-    def get_tracking_info(self, tracking_number: str):
+    def get_tracking_info(self, tracking_number: str) -> TraceyEventDTO:
         api_response = self.get_api_response(tracking_number)
         if api_response.status_code == 500:
             raise HTTPException(status_code=500,
@@ -50,5 +47,5 @@ class AbstractCarrier(ABC):
         if api_response.status_code == 404:
             raise HTTPException(status_code=404,
                                 detail={"message": "Barcode not found. Please check the barcode and try again later."})
-        statuses = self.get_tracking_status(api_response)
-        return self.map_status(statuses)
+        status = self.get_tracking_status(api_response)
+        return self.map_status(status)

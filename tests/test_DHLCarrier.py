@@ -1,3 +1,4 @@
+import main
 import json
 import pytest
 from carriers.DHLCarrier import DHLCarrier

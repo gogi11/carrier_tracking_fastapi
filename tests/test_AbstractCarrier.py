@@ -1,5 +1,5 @@
+import main
 import pytest
-import responses
 from fastapi import HTTPException
 from carriers.AbstractCarrier import AbstractCarrier, get_tracey_mapping
 from tests.ResponseTestMixin import ResponseTestMixin
@@ -61,7 +61,7 @@ class TestAbstractCarrier(ResponseTestMixin):
         assert err.value.detail["message"] == "Barcode not found. Please check the barcode and try again later."
 
     def test_valid_get_tracking_info_calls_map_status_with_correct_status(self):
-        statuses=[]
+        statuses = []
         carrier = self.mock_carrier(self.valid_carrier_name, status_code=200, status_name=self.valid_status)
         carrier.map_status = lambda s: statuses.append(s)
 

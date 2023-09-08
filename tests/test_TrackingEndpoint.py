@@ -1,3 +1,4 @@
+import main
 from fastapi.testclient import TestClient
 from main import app, carriers
 from tests.ResponseTestMixin import ResponseTestMixin
